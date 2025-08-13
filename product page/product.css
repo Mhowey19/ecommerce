@@ -1,0 +1,32 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.product-flex {
+	display: flex;
+	flex-direction: row;
+	height: 100vh;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.product-img {
+	object-fit: cover;
+	width: 8rem;
+	height: 8rem;
+	border: black solid 2px;
+}
+.product-container {
+	display: flex;
+	border: 1px solid black;
+	margin: 1rem;
+	width: 15rem;
+	height: 16rem;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-content: center;
+	justify-content: center;
+	align-items: flex-start;
+	padding-left: 10px;
+}

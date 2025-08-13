@@ -1,0 +1,74 @@
+[
+	{
+		"productImg": "/image/baby-wipes.webp",
+		"productName": "Baby Wipes (168 Count)",
+		"productInfo": "Premium baby wipes for the most sensitive skin.",
+		"productPrice": 6.28
+	},
+	{
+		"productImg": "/image/dipers.webp",
+		"productName": "Pampers Swaddlers Sensitive Disposable Diapers (32 Count)",
+		"productInfo": "Premium baby dipers for the most sensitive skin.",
+		"productPrice": 9.99
+	},
+	{
+		"productImg": "/image/lotion.webp",
+		"productName": "Baby Lotion",
+		"productInfo": "Baby lotion for the rough sensitive skin.",
+		"productPrice": 8.28
+	},
+	{
+		"productImg": "/image/pajamas.jpg",
+		"productName": "Blue Cartoon Elephant Zip-Up Pajamas",
+		"productInfo": "New Born,3-6M, (60% Cotten 40% polyester)",
+		"productPrice": 4.0
+	},
+	{
+		"productImg": "/image/5pack.webp",
+		"productName": "5-Pack Baby Neutral Green/ Brown Short Sleeve Onesies",
+		"productInfo": "New Born, 3-6M, 6-9M, 24M (100% Cotten)",
+		"productPrice": 10.0
+	},
+	{
+		"productImg": "/image/coat.jpg",
+		"productName": "Black Winter Fleece Coats Warm Puffer",
+		"productInfo": "9M-12M , 1-2T (100% Cotten Inner 100% Polester Outer)",
+		"productPrice": 10.0
+	},
+	{
+		"productImg": "/image/bottle.webp",
+		"productName": "Evenflo Balance Wide-Neck Anti-Colic Baby Bottles",
+		"productInfo": "9oz, 3 Count",
+		"productPrice": 5
+	},
+	{
+		"productImg": "/image/formula.webp",
+		"productName": "Kendamil Infant Formula Powder",
+		"productInfo": "28.2oz , 100 Calories per Serving ",
+		"productPrice": 13.0
+	},
+	{
+		"productImg": "/image/carseat.webp",
+		"productName": "Refurbished Graco SlimFit LX 3-in-1 Convertible Car Seat",
+		"productInfo": "Refurbished Car Seat, Max Weight 100lb",
+		"productPrice": 49.99
+	},
+	{
+		"productImg": "/image/teether.webp",
+		"productName": "Silicone Ring Teether",
+		"productInfo": "Ages 3M+",
+		"productPrice": 2.99
+	},
+	{
+		"productImg": "/image/blanket.webp",
+		"productName": "Flannel Baby Blanket",
+		"productInfo": "4 Blankets (100% Cotten)",
+		"productPrice": 4.99
+	},
+	{
+		"productImg": "/image/carrier.webp",
+		"productName": "Ergonomic, Cozy and Lightweight Carrier for 7-44lbs",
+		"productInfo": "3-in-1 Baby Carrier (100% Cotten)",
+		"productPrice": 25.99
+	}
+]
