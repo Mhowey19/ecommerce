@@ -5,25 +5,46 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Contact Us</title>
 		<link href="contact.css" rel="stylesheet" />
+		<link href="/shared.css" rel="stylesheet" />
 	</head>
-	<body>
-		<main class="container">
-			<form class="form-container" id="contactForm">
-				<section>
-					<label>Name</label>
-					<input type="text" class="name-input" id="nameInput" />
-				</section>
-				<section>
-					<label>Email</label>
-					<input type="email" class="emaile-input" id="emailInput" />
-				</section>
-				<section>
-					<label>Comment</label>
-					<input type="text" class="comment-input" id="commentInput" />
-				</section>
-				<button type="submit" id="submitButton">Submit</button>
-			</form>
-		</main>
-	</body>
+	<div class="grid-container">
+		<!--Make the header to sticky-->
+		<div>
+			<header class="main-header">
+				<img class="nav-logo" src="/image/logo.png" rel="logo" />
+				<h1 class="nav-text">TINY JOY</h1>
+				<nav class="nav-list">
+					<a href="/index.html" class="nav-link">Home Page</a>
+					<a href="/product page/product.html" class="nav-link">Product Page</a>
+					<a href="/contact page/contact.html" class="nav-link">Contact Page</a>
+				</nav>
+			</header>
+		</div>
+
+		<body>
+			<main class="container">
+				<form class="form-container" id="contactForm">
+					<section>
+						<label>Name</label>
+						<input type="text" class="name-input" id="nameInput" />
+					</section>
+					<section>
+						<label>Email</label>
+						<input type="email" class="emaile-input" id="emailInput" />
+					</section>
+					<section>
+						<label>Donation Item</label>
+						<input type="text" class="donation-input" id="donationInput" />
+					</section>
+					<section>
+						<label>Comment</label>
+						<input type="text" class="comment-input" id="commentInput" />
+					</section>
+					<button type="submit" id="submitButton">Submit</button>
+				</form>
+				<div class="product-donation" id="productDonation"></div>
+			</main>
+		</body>
+	</div>
 	<script defer src="contact.js"></script>
 </html>

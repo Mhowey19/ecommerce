@@ -5,6 +5,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Home Page</title>
 		<link href="style.css" rel="stylesheet" />
+		<link href="shared.css" rel="stylesheet" />
 	</head>
 	<div class="grid-container">
 		<!--Make the header to sticky-->
@@ -13,9 +14,9 @@
 				<img class="nav-logo" src="/image/logo.png" rel="logo" />
 				<h1 class="nav-text">TINY JOY</h1>
 				<nav class="nav-list">
-					<a href="/index.html">Home Page</a>
-					<a href="/product page/product.html">Product Page</a>
-					<a href="/contact page/contact.html">Contact Page</a>
+					<a href="/index.html" class="nav-link">Home Page</a>
+					<a href="/product page/product.html" class="nav-link">Product Page</a>
+					<a href="/contact page/contact.html" class="nav-link">Contact Page</a>
 				</nav>
 			</header>
 		</div>
@@ -25,9 +26,8 @@
 				<div class="cta">
 					<p class="hero-text">To Provide Easy and Affordable Child Goods</p>
 				</div>
-				<div class="product-page" id="productPage">placeholder1</div>
-				<div class="contact-page" id="contactPage">placeholder2</div>
-				<div class="donate-page" id="dontatePage">placeholder3</div>
+				<a class="product-page" id="productPage" href="/product page/product.html">Our Products</a>
+				<a class="contact-page" id="contactPage" href="/contact page/contact.html">Donate Supplies</a>
 			</main>
 		</body>
 		<script defer src="script.js"></script>

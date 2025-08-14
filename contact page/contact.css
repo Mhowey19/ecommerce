@@ -2,12 +2,22 @@
 	background-color: rgb(198, 198, 198);
 	height: 25vh;
 	width: 50vw;
-	margin-left: 10%;
-	margin-top: 50%;
+	margin-left: 25%;
+	border: 5px solid black;
+	padding: 5px;
 }
 
 .form-container {
 	display: flex;
 	flex-direction: column;
 	color: rgb(0, 0, 0);
+}
+
+button {
+	width: 3rem;
+	height: auto;
+}
+
+.productDonation {
+	border: black 5px solid;
 }
