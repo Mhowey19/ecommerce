@@ -12,7 +12,7 @@ contactForm.addEventListener("submit", (e) => {
 });
 
 const validate = () => {
-	if (nameInput.value === "" || nameInput.value === "1") {
+	if (nameInput.value === "" || typeof nameInput === Number) {
 		console.log("Please enter a valid input");
 	} else {
 		const display = `Thank you ${nameInput.value} for your donation item of ${donationInput.value}`;

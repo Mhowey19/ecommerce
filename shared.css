@@ -47,9 +47,14 @@ a:link {
 	display: flex;
 	background-color: black;
 	grid-row: 3;
+	color: white;
+	justify-content: center;
 }
 
-.nav-link {
+.footer-list {
+	display: flex;
 	margin: 5px;
 	overflow: hidden;
+	align-items: center;
+	flex-wrap: nowrap;
 }
