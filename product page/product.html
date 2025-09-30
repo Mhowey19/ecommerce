@@ -7,22 +7,48 @@
 		<link href="product.css" rel="stylesheet" />
 		<link href="/shared.css" rel="stylesheet" />
 	</head>
-	<div class="grid-container">
-		<!--Make the header to sticky-->
-		<div>
+	<body>
+		<div class="grid-container">
 			<header class="main-header">
-				<img class="nav-logo" src="/image/logo.png" rel="logo" />
-				<h1 class="nav-text">TINY JOY</h1>
-				<nav class="nav-list">
-					<a href="/index.html" class="nav-link">Home Page</a>
-					<a href="/product page/product.html" class="nav-link">Product Page</a>
-					<a href="/contact page/contact.html" class="nav-link">Contact Page</a>
-				</nav>
+				<div class="nav-left">
+					<img src="/image/logo.png" class="nav-logo" alt="Tiny Joy Logo" />
+					<h1 class="nav-text">TINY JOY</h1>
+				</div>
+
+				<div class="nav-right">
+					<img
+						class="menu-icon"
+						id="menuIcon"
+						src="/image/menu_24dp_000000_FILL0_wght400_GRAD0_opsz24.png"
+						alt="Menu"
+					/>
+					<nav class="nav-list" id="navList">
+						<a href="/index.html" class="nav-link">Home Page</a>
+						<a href="/product page/product.html" class="nav-link">Product Page</a>
+						<a href="/contact page/contact.html" class="nav-link">Contact Page</a>
+					</nav>
+				</div>
 			</header>
+
+			<main>
+				<div class="product-flex" id="productFlex"></div>
+			</main>
+
+			<footer class="main-footer">
+				<div class="footer-list">
+					<p class="footer-link">©2025 Tiny Joy | Privacy Policy | Donate | Instagram</p>
+					<div class="footer-icons">
+						<img src="/image/facebook.svg" alt="Facebook" />
+						<img src="/image/instagram.svg" alt="Instagram" />
+						<img src="/image/tiktok.svg" alt="TikTok" />
+						<img src="/image/youtube.svg" alt="YouTube" />
+					</div>
+				</div>
+			</footer>
 		</div>
-		<body>
-			<div class="product-flex" id="productFlex"></div>
-		</body>
-	</div>
-	<script defer src="product.js"></script>
+
+		<!-- Scripts -->
+		<script defer src="product.js"></script>
+		<script defer src="/script.js"></script>
+	</body>
 </html>

@@ -10,12 +10,14 @@ header a {
 	display: block;
 }
 .product-flex {
+	gap: 5px;
 	display: flex;
-	flex-direction: row;
 	height: 100vh;
-	justify-content: center;
-	align-items: center;
+	margin-top: 64px;
+	flex-direction: row;
 	flex-wrap: wrap;
+	align-content: flex-start;
+	justify-content: center;
 }
 .product-img {
 	object-fit: cover;
@@ -40,6 +42,7 @@ header a {
 	padding-left: 10px;
 	background-color: white;
 	margin: 10px;
+	gap: 5px;
 }
 
 button {
@@ -48,4 +51,9 @@ button {
 	border-radius: 10px;
 	width: 5rem;
 	margin-bottom: 5px;
+}
+
+button:hover {
+	background-color: darkred;
+	cursor: pointer;
 }

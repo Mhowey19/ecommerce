@@ -9,43 +9,66 @@
 	</head>
 
 	<div class="grid-container">
-		<!--Make the header to sticky-->
 		<div>
+			<div>
 			<header class="main-header">
-				<img class="nav-logo" src="/image/logo.png" rel="logo" />
-				<h1 class="nav-text">TINY JOY</h1>
-				<nav class="nav-list">
-					<a href="/index.html" class="nav-link">Home Page</a>
-					<a href="/product page/product.html" class="nav-link">Product Page</a>
-					<a href="/contact page/contact.html" class="nav-link">Contact Page</a>
-				</nav>
+				<div class="nav-left">
+					<img src="/image/logo.png" class="nav-logo" />
+					<h1 class="nav-text">TINY JOY</h1>
+				</div>
+
+				<div class="nav-right">
+					<img class="menu-icon" id="menuIcon" src="/image/menu_24dp_000000_FILL0_wght400_GRAD0_opsz24.png" />
+					<nav class="nav-list" id="navList">
+						<a href="/index.html" class="nav-link">Home Page</a>
+						<a href="/product page/product.html" class="nav-link">Product Page</a>
+						<a href="/contact page/contact.html" class="nav-link">Contact Page</a>
+					</nav>
+				</div>
 			</header>
 		</div>
 
 		<body>
-			<main class="container">
-				<form class="form-container" id="contactForm">
-					<section>
-						<label>Name</label>
-						<input type="text" class="name-input" id="nameInput" required />
-					</section>
-					<section>
-						<label>Email</label>
-						<input type="email" class="emaile-input" id="emailInput" required />
-					</section>
-					<section>
-						<label>Donation Item</label>
-						<input type="text" class="donation-input" id="donationInput" />
-					</section>
-					<section>
-						<label>Comment</label>
-						<input type="text" class="comment-input" id="commentInput" />
-					</section>
-					<button type="submit" id="submitButton">Submit</button>
-				</form>
-				<div class="product-donation" id="productDonation"></div>
-			</main>
+      <main class="container">
+        <form class="form-container" id="contactForm">
+
+          <section>
+            <label for="nameInput">Name</label>
+            <input type="text" id="nameInput" />
+          </section>
+
+          <section>
+            <label for="emailInput">Email</label>
+            <input type="email" id="emailInput" />
+          </section>
+
+          <section>
+            <label for="phoneInput">Phone Number</label>
+            <input type="text" id="phoneInput" />
+          </section>
+
+          <section>
+            <label for="commentInput">Comment</label>
+            <input type="text" id="commentInput" />
+          </section>
+
+          <button type="submit" id="submitButton">Submit</button>
+        </form>
+
+        <div class="product-donation" id="message"></div>
+      </main>
 		</body>
-	</div>
 	<script defer src="contact.js"></script>
+	<script defer src="/script.js"></script>
+	<footer class="main-footer">
+				<div class="footer-list">
+					<p class="footer-link">©2025 Tiny Joy | Privacy Policy | Donate | Instagram</p>
+					<div class="footer-icons">
+						<img src="/image/facebook.svg" alt="Facebook" />
+						<img src="/image/instagram.svg" alt="Instagram" />
+						<img src="/image/tiktok.svg" alt="TikTok" />
+						<img src="/image/youtube.svg" alt="YouTube" />
+					</div>
+				</div>
+			</footer>
 </html>

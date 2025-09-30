@@ -1,9 +1,9 @@
 fetch("product.json") //gets a local resourse //grabs the file's content returns a promise which as the information or an error
-	.then((response) => response.json()) //Parase:looks at and analize the json flie
+	.then((response) => response.json()) //Parse:looks at and analize the json flie
 	.then((data) => {
 		//once data is retreved it runs the funciton
 		//Loops over the data within the json file
-		// s array and iterates by 1
+		// array and iterates by 1
 		for (let i = 0; i < data.length; i++) {
 			let product = data[i]; //Puts the data into a product variable
 			let productDiv = `<div class="product-container"> 

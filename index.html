@@ -4,20 +4,26 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Home Page</title>
+		<link href="/image/logo.png" rel="icon" class="website-icon" />
 		<link href="style.css" rel="stylesheet" />
 		<link href="shared.css" rel="stylesheet" />
 	</head>
 	<div class="grid-container">
-		<!--Make the header to sticky-->
 		<div>
 			<header class="main-header">
-				<img class="nav-logo" src="/image/logo.png" rel="logo" />
-				<h1 class="nav-text">TINY JOY</h1>
-				<nav class="nav-list">
-					<a href="/index.html" class="nav-link">Home Page</a>
-					<a href="/product page/product.html" class="nav-link">Product Page</a>
-					<a href="/contact page/contact.html" class="nav-link">Contact Page</a>
-				</nav>
+				<div class="nav-left">
+					<img src="image/logo.png" class="nav-logo" />
+					<h1 class="nav-text">TINY JOY</h1>
+				</div>
+
+				<div class="nav-right">
+					<img class="menu-icon" id="menuIcon" src="image/menu_24dp_000000_FILL0_wght400_GRAD0_opsz24.png" />
+					<nav class="nav-list" id="navList">
+						<a href="/index.html" class="nav-link">Home Page</a>
+						<a href="/product page/product.html" class="nav-link">Product Page</a>
+						<a href="/contact page/contact.html" class="nav-link">Contact Page</a>
+					</nav>
+				</div>
 			</header>
 		</div>
 
@@ -26,15 +32,25 @@
 				<div class="cta">
 					<p class="hero-text">To Provide Easy and Affordable Child Goods</p>
 				</div>
-				<a class="product-page" id="productPage" href="/product page/product.html">Our Products</a>
-				<a class="contact-page" id="contactPage" href="/contact page/contact.html">Donate Supplies</a>
+				<a class="product-page" id="productPage" href="/product page/product.html">
+					<p class="inner-text">Our Products</p>
+				</a>
+				<a class="contact-page" id="contactPage" href="/contact page/contact.html"
+					><p class="inner-text">Donate Supplies</p></a
+				>
 			</main>
 		</body>
 		<script defer src="script.js"></script>
-		<div class="main-footer">
-			<footer class="footer-list">
+		<footer class="main-footer">
+			<div class="footer-list">
 				<p class="footer-link">©2025 Tiny Joy | Privacy Policy | Donate | Instagram</p>
-			</footer>
-		</div>
+				<div class="footer-icons">
+					<img src="/image/facebook.svg" alt="Facebook" />
+					<img src="/image/instagram.svg" alt="Instagram" />
+					<img src="/image/tiktok.svg" alt="TikTok" />
+					<img src="/image/youtube.svg" alt="YouTube" />
+				</div>
+			</div>
+		</footer>
 	</div>
 </html>
