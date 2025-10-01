@@ -12,7 +12,7 @@ contactForm.addEventListener("submit", (e) => {
 	e.preventDefault();
 	validate();
 });
-
+// validation if it is false then it will change the input box border to red.
 const validate = () => {
 	if (emailRegex.test(emailInput.value)) {
 		nameInput.style.borderColor = "#ccc";
@@ -31,7 +31,7 @@ const validate = () => {
 	} else {
 		phoneInput.style.borderColor = "red";
 	}
-
+	//displays only when all 3 required inputs are filled
 	if (emailRegex.test(emailInput.value) && textRegex.test(nameInput.value) && phoneRegex.test(phoneInput.value)) {
 		message.textContent = `Thank you ${nameInput.value}, for your concern. Our contact number is 123-456-7890`;
 	}
